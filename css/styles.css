@@ -1,0 +1,150 @@
+/* Color Palette
+#13262f - Jet Black
+#CAC4CE - Pale Slate
+#F7ECE1 - Linen
+#1F2937 - charcoal
+*/
+
+/* Fonts
+Linkedin - <i class="fa-brands fa-linkedin fa-bounce"></i>
+Email - <i class="fa-solid fa-circle-envelope"></i>
+Github - <i class="fa-brands fa-github"></i>
+
+*/
+
+
+
+h1,h2,h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+h2{
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin: 0;
+}
+
+/* Global styles 
+------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1F2937;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+header{
+    background-color: #13262f;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(rgba(19,38,47,0), rgba(19,38,47,0.8)), url(/images/ripples.jpg);
+    background-size: cover;
+    color: black;
+    
+
+}
+
+.content-info a{
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.profile-img{
+    /*width: 300px; */
+    border-radius: 50%;
+    /*float: left;
+    margin-right: 30px;*/
+}
+
+.header-nav{
+    background-color: #13262f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 12px 0;
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.column-wide a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/*.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}*/
+
+/* Work Experience
+------------------------------------*/
+.experience{
+    background-color: #f7ece1;
+    color: #13262f;
+}
+
+
+/* Education
+------------------------------------*/
+.education{
+    background-color: #CAC4CE;
+
+}
+
+.contact-info a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
